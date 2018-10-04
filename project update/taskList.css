@@ -1,0 +1,110 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url('ezgif.com-gif-maker.gif');
+	background-size: 1900px;
+
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+
+	
+}
+p{
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	margin-left: 175px;
+	float-right:190px;
+}
+h1{
+	background: #DAA520;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+h6{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	margin-left: 175px;
+}
+.fa-plus{
+	float: right;
+}
+.fa-check{
+	float: right;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+
+}
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+span{
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+#done {
+	background: #3c82e7;
+}
+li:hover span{
+	width: 40px;
+	opacity: 1.0;
+
+}
+input{
+	font-size: 18px;
+	color: #2980b9;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+input:focus{
+	background: #fff;
+	border: 3px solid RGB(218, 165, 32);
+	outline: none;
+}
+#container{
+	width: 700px;
+	margin: 100px 10px 100px 360px;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1)
+	opacity: 3.0;
+}
+#cs{
+	width: 700px;
+	margin: 20px 10px 100px 360px;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1)
+	opacity: 3.0;
+}
+h4{
+/*	float: right;
+}
+#remeved {
+	width: 360px;
+	margin: 250px ;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1)
+	opacity: 3.0;
+}*/
